@@ -1,5 +1,299 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.small-box {
+  margin: 0 5px;
+  padding: 0 15px;
+  height: 26px;
+  color: #FFFFFF;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 26px;
+}
+
+.small-box:active {
+
+}
+
+.middle-box {
+  margin: 0 5px;
+  padding: 0 20px;
+  height: 32px;
+  color: #FFFFFF;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 32px;
+}
+
+.large-box {
+  margin: 0 5px;
+  padding: 0 25px;
+  height: 38px;
+  color: #FFFFFF;
+  display: inline-block;
+  border-radius: 7px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 38px;
+}
+
+.common-box {
+  background-color: #00bcd4;
+  cursor: pointer;
+}
+
+.error-box {
+  background-color: #ff4081;
+  cursor: pointer;
+}
+
+.disabled-box {
+  background-color: #e5e5e5;
+  cursor: default;
+}
+
+.s-shadow-box {
+  color: #222;
+  cursor: pointer;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.12),
+  0 1px 4px rgba(0,0,0,0.12);
+}
+
+.q8-2_form {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ECF1F2;
+}
+
+.q8-2_form-title {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.q8-2_form-title::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.q8-2_form-title-text {
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.q8-2_center_left {
+  float: left;
+}
+
+.q8-2_center_left_items {
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.q8-2_center_left_items > li:first-child {
+  margin-top: 0;
+}
+
+.q8-2_center_left_items > li {
+  margin-top: 20px;
+}
+
+.q8-2_center_left_title{
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.q8-2_center_left_content{
+  float: right;
+  width: 180px;
+}
+
+.q8-2_center_left_content :focus {
+  box-shadow: 0 0 7px #00BCD4;
+}
+
+.q8-2_center_right {
+  float: left;
+
+}
+
+span {
+  color: #F00;
+}
+
+.q8-2_input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+.input_init {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.q8-2_center_left_gender {
+  float: left;
+}
+
+.q8-2_center_select_content {
+  float: right;
+  width: 180px;
+}
+
+.radio-input {
+  display: none;
+}
+
+.radio_text {
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.radio-input+label {
+  padding-left: 20px;
+  position: relative; 
+}
+
+.radio-input+label::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.radio-input:checked+label::after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+
+.select_from {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.q8-2_checkbox {
+  text-align: right;
+}
+
+.q8-2_checkbox_btn {
+  position: relative;
+  padding-left: 24px;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox]+label {
+  padding-left: 20px;
+  position: relative;
+}
+
+.q8-2_checkbox_btn::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -9px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: '';
+}
+
+input[type=checkbox]:checked+.q8-2_checkbox_btn::after {
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  margin-top: -14px;
+  width: 8px;
+  height: 16px;
+  border-right: 3px solid #00BCD4;
+  border-bottom: 3px solid #00BCD4;
+  transform: rotate(45deg);
+  content: ''
+}
+
+.q8-2_button {
+  text-align: right;
+}
+
+.q8-2_button :active {
+  background-color: #FFF;
+  color: #00BCD4;
+}
+
+.q8-2_button_submit {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00BCD4;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.q8-2_textarea {
+  float: right;
+  width: 380px;
+}
+
+.q8-2_textarea_text {
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+}
 
 /* 回答はここに書いてね */

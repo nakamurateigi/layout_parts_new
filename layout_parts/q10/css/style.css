@@ -1,5 +1,36 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.comment {
+  width: 500px;
+  padding: 20px;
+  border: solid 5px #222;
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 30px;
+  margin: auto;
+  position: relative;
+}
+
+.comment::before {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 26px;
+  border: solid 25px transparent;
+  border-top: solid 25px #222;
+  z-index: 1;
+}
+
+.comment::after {
+  content: "";
+  position: absolute;
+  bottom: -39px;
+  left: 31px;
+  border: solid 20px transparent;
+  border-top: solid 20px #FFF;
+  z-index: 2;
+}
+
 
 /* 回答はここに書いてね */
