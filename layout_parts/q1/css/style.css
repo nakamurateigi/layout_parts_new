@@ -2,26 +2,26 @@
 
 /* 回答はここに書いてね */
 .q1-box {
-  width: 940px;
+  width: 900px;
   background-color: #eff3f4;
   padding: 20px;
-  margin: auto;
+  margin: 0 auto;
 }
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
-.q1-box1 {
+.q1-float-box {
   padding: 20px;
   margin-left: 20px;
   background-color: #3274ae;
   float: left;
 }
-.q1-box1:first-child{
+.q1-float-box:first-child{
   margin-left: 0px;
 }
-.q1-in-box1 {
+.q1-in-float-box {
   width: 230px;
   font-size: 16px;
   line-height: 16px;

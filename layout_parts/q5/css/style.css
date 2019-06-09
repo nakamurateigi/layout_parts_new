@@ -6,141 +6,83 @@
   width: 500px;
   height: 500px;
   background-color: #ECF1F2;
-  margin: auto;
+  margin: 0 auto;
 }
 
-/*.centerbox:before {
-  content: '1';
+.z-box-position {
   position: absolute;
-  top: 40px;
-  left: 200px;
+}
+
+.z-box {
   width: 100px;
   height: 100px;
-  background-color: #ffefd3;
   line-height: 100px;
   font-size: 30px;
   text-align: center;
   vertical-align: middle;
 }
-*/
+
 .one {
   z-index: 1;
-  position: absolute;
   top: 40px;
   left: 200px;
-  width: 100px;
-  height: 100px;
   background-color: #ffefd3;
-  line-height: 100px;
-  font-size: 30px;
-  text-align: center;
-  vertical-align: middle;
 }
 
 .two {
   z-index: 2;
-  position: absolute;
   top: 120px;
   left: 280px;
-  width: 100px;
-  height: 100px;
   background-color: #7084de;
-  line-height: 100px;
-  font-size: 30px;
-  text-align: center;
-  vertical-align: middle;
 }
 
 .three {
   z-index: 3;
-  position: absolute;
   top: 200px;
   left: 360px;
-  width: 100px;
-  height: 100px;
   background-color: #d0ecea;
-  line-height: 100px;
-  font-size: 30px;
-  text-align: center;
-  vertical-align: middle;
 }
 
 .four {
   z-index: 4;
-  position: absolute;
   top: 280px;
   left: 280px;
-  width: 100px;
-  height: 100px;
   background-color: #8b7a5e;
-  line-height: 100px;
-  font-size: 30px;
-  text-align: center;
-  vertical-align: middle;
 }
 
 .five {
   z-index: 5;
-  position: absolute;
   top: 360px;
   left: 200px;
-  width: 100px;
-  height: 100px;
   background-color: #9fd6d2;
-  line-height: 100px;
-  font-size: 30px;
-  text-align: center;
-  vertical-align: middle;
 }
 
 .six {
   z-index: 6;
-  position: absolute;
   top: 280px;
   left: 120px;
-  width: 100px;
-  height: 100px;
   background-color: #fffee4;
-  line-height: 100px;
-  font-size: 30px;
-  text-align: center;
-  vertical-align: middle;
-}
+ }
 
 .seven {
   z-index: 7;
-  position: absolute;
   top: 200px;
   left: 40px;
-  width: 100px;
-  height: 100px;
   background-color: #deae70;
-  line-height: 100px;
-  font-size: 30px;
-  text-align: center;
-  vertical-align: middle;
 }
 
 .eight {
   z-index: 8;
-  position: absolute;
   top: 120px;
   left: 120px;
-  width: 100px;
-  height: 100px;
   background-color: #de70cf;
-  line-height: 100px;
-  font-size: 30px;
-  text-align: center;
-  vertical-align: middle;
 }
 
-.centerbox:after {
-  z-index: 9;
+.eight:after {
   content: '';
   position: absolute;
-  top: 120px;
-  left: 200px;
+  top: 0px;
+  right: 0px;
   width: 20px;
   height: 20px;
   background-color: #ffefd3;
@@ -150,12 +92,6 @@
   position: fixed;
   top: 10px;
   left: 10px;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
-  font-size: 30px;
   background-color: #2b69a3;
-  text-align: center;
-  vertical-align: middle;
 }
 /* 回答はここに書いてね */

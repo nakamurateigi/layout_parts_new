@@ -1,36 +1,41 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table {
+.q3-table {
   margin: auto;
   width: 100%;
   table-layout: fixed;
 }
 
-table th {
+.q3-table th {
   padding: 10px;
+  font-size: 18px;
+  line-height: 26px;
   color: white;
   background: #2244AA;
   padding: 10px;
   border: solid 1px #dedede;
 }
 
-table td{
+.q3-table td{
   text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 22px;
   padding: 10px;
   border: solid 1px #dedede;
 }
 
-table tr td:first-child {
+.q3-table tr td:first-child {
   color: white;
   background: #2244AA;
 } 
 
-table tr:nth-child(odd){
+.q3-table tr:nth-child(odd){
   background: #ecf1f2;
 }
 
-table tr:last-child {
+.q3-table tr:last-child {
   border-top: dashed 2px #000;
 }
 

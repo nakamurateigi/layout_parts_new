@@ -2,13 +2,23 @@
 
 /* 回答はここに書いてね */
 .q6-1{
-  display: block;
   width: 90px;
   background-color: #e6f2ff;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  margin: auto;
+}
+
+.q6-1-left-inline{
+  text-align: center;
+}
+
+.q6-1-left {
+  display: inline-block;
+}
+
+.q6-1-right {
+  margin: 0 auto;
 }
 
 .q6-dtable{
@@ -34,7 +44,6 @@
 }
 
 .q6-flex-block{
-  display: block;
   padding: 10px;
   background-color: #fff;
 }
@@ -60,8 +69,9 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateY(-50%) translateX(-50%);
   -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
 }
+ 
 
 /* 回答はここに書いてね */
