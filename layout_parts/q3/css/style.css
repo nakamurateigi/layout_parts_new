@@ -26,11 +26,6 @@
   border: solid 1px #dedede;
 }
 
-.q3-table tr td:first-child {
-  color: white;
-  background: #2244AA;
-} 
-
 .q3-table tr:nth-child(odd){
   background: #ecf1f2;
 }

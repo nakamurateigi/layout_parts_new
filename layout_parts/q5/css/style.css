@@ -9,11 +9,8 @@
   margin: 0 auto;
 }
 
-.z-box-position {
-  position: absolute;
-}
-
 .z-box {
+  position: absolute;
   width: 100px;
   height: 100px;
   line-height: 100px;

@@ -7,18 +7,18 @@
   clear: both;
 }
 
-.q7-layout {
+.q7-block {
   width: 225px;
   font-size: 16px;
   box-sizing: border-box;
+  margin-left: 50px;
 }
 
-.q7-1_left {
-  float: left;
-  margin-right: 50px;
+.q7-block:first-child {
+  margin-left: 0;
 }
 
-.q7-1_right {
+.q7-1 {
   float: left;
 }
 
@@ -26,13 +26,14 @@
   display: table;
 }
 
+.dtable .dtable_c:first-child {
+  padding-left: 0;
+}
+
 .dtable_c {
   display: table-cell;
   vertical-align: middle;
-}
-
-.q7-2-left {
-  margin-right: 50px;
+  padding-left: 50px;
 }
 
 .inlineblock-p {
@@ -42,7 +43,7 @@
 .inlineblock-left {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 50px;
+  /*margin-right: 50px;*/
 }
 
 .inlineblock-right {

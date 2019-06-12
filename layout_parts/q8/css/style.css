@@ -87,6 +87,7 @@
   padding-right: 10px;
   font-size: 24px;
   font-weight: bold;
+  background-color: #ECF1F2;
 }
 
 .clearfix::after {
@@ -119,12 +120,12 @@
   text-align: right;
 }
 
-.q8-2_center_left_content{
+.q8-2_content{
   float: right;
   width: 180px;
 }
 
-.q8-2_center_left_content :focus {
+.q8-2_content :focus {
   box-shadow: 0 0 7px #00BCD4;
 }
 
@@ -162,6 +163,22 @@ span {
 .q8-2_center_select_content {
   float: right;
   width: 180px;
+  position: relative;
+}
+
+.q8-2_center_select_content:after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border: 0;
+  border-bottom: solid 2px #E5E5E5;
+  border-right: solid 2px #E5E5E5;
+  position: absolute;
+  top: 30%;
+  right: 10px;
+  margin-top: -3px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .radio-input {
